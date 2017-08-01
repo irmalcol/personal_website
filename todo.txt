@@ -1,0 +1,8 @@
+To-Do List for Website
+======================
+
+Specify wrapping behaviour for navbar
+
+Make width of name in banner relative
+
+Fix spacing issues after banner and between sections
