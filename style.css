@@ -122,13 +122,18 @@ h2:before {
 .section_container {
   position: relative;
   display: inline-block;
+  /*border: 1px solid rgb(123, 123, 123);*/
 }
 
 .text_container {
   position: absolute;
-  height: 100%;
+  height: 50%;
   text-align: center;
-  width: 100%;
+  width: 35%;
+  background-color: rgb(200, 200, 200);
+  background-color: rgba(0,0,0,0.4);
+  margin: 5%;
+  /*z-index: 2;*/
 }
 
 .text_container:before {
@@ -146,4 +151,5 @@ h2:before {
   display: block;
   max-width: 100%;
   height: auto;
+  z-index:1;
 }
