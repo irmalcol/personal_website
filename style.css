@@ -63,19 +63,13 @@ a:visited {
   color: #222;
 }
 
-.banner_text {
-  height: 3em;
-  display: table-cell;
-  vertical-align: middle;
-}
-
 /*Need spacer to position elements below fixed banner*/
 #banner_spacer {
   min-height: 100px;
   width: 100%;
   background: #FFFFFF;
   padding: 20px;
-  font-family: "Georgia Serif", serif;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
   font-size: 24px;
   color: #000000;
 }
@@ -85,19 +79,10 @@ a:visited {
   height: 3em; /*must match .banner_text height above*/
 }
 
-/*.anchor {
-  padding-top: 120px;
-}
-*/
-
 .background_images {
   margin-bottom: -100px;
   width: 100%
 }
-/*
-#navbar_spacer {
-  height: 88px;
-}*/
 
 h2 {
   display: block;
@@ -119,34 +104,6 @@ h2:before {
   margin-top: -100px;
   height: 100px;
   /*height: 200px;*/
-}
-
-.navbar {
-  /*position: fixed;*/
-  /*top:88px;*/
-  font-family: "Georgia", serif;
-  color: #666;
-}
-
-.navbar > ul {
-  list-style-type: none;
-  /*height: 100px;*/
-}
-
-.navbar > ul > li {
-  float: left;
-}
-
-.navbar > ul > li > a:link, .navbar > ul > li > a:visited {
-  display: block;
-  padding: 1em;
-  font-family: "Georgia", serif;
-  color: #666;
-}
-
-.navbar > ul > li > a:hover {
-  background-color: #666;
-  color: #222;
 }
 
 .section_container {
