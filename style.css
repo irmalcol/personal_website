@@ -21,7 +21,8 @@ a:visited {
 
 .banner {
   position: fixed;
-  min-height: 100px;
+  /*min-height: 100px;*/
+  height:120px;
   width: 100%;
   background: #222;
   /*background: rbga(0,0,0,0.3);*/
@@ -65,22 +66,22 @@ a:visited {
 
 /*Need spacer to position elements below fixed banner*/
 #banner_spacer {
-  min-height: 100px;
+  height: 120px;
   width: 100%;
-  background: #FFFFFF;
+  /*background: #FFFFFF;
   padding: 20px;
   font-family: "Trebuchet MS", "Arial", sans-serif;
   font-size: 24px;
-  color: #000000;
+  color: #000000;*/
 }
 
 /*This text is hidden and only serves to size the banner spacer correctly*/
 #banner_spacer_hidden_text {
-  height: 3em; /*must match .banner_text height above*/
+  /*height: 3em;*/ /*must match .banner_text height above*/
 }
 
 .background_images {
-  margin-bottom: -100px;
+  /*margin-bottom: -120px;*/
   width: 100%
 }
 
@@ -92,17 +93,32 @@ h2 {
   /*padding-top: 4em;*/
 }
 
-h2:before {
+.anchor {
   display: block;
-  content:"";
-  /*margin-top: -100px;*/
-  height: 100px;
+  position: relative;
+  top: -120px;
   visibility: hidden;
 }
 
-#bm_profile:before {
-  margin-top: -100px;
+/*h2.anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}*/
+
+
+/*h2:before {
+  display: block;
+  content:"";
+  margin-top: -100px; WAS COMMENTED
   height: 100px;
+  visibility: hidden;
+}*/
+
+#bm_profile:before {
+  /*margin-top: -100px;
+  height: 100px;*/
   /*height: 200px;*/
 }
 
@@ -110,8 +126,16 @@ h2:before {
   position: relative;
   display: inline-block;
   /*border: 1px solid rgb(123, 123, 123);*/
+  /*margin-bottom: -120px;*/
 }
 
+/*.section_container:before {
+  display: block;
+  content: "";
+  margin-top: -120px;
+  height: 120px;
+}
+*/
 .text_container {
   position: absolute;
   height: 50%;
