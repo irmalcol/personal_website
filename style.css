@@ -33,6 +33,36 @@ a:visited {
   z-index: 100;
 }
 
+#banner_title {
+  width: 400px;
+}
+
+#banner_navbar ul {
+  list-style-type: none;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+#banner_navbar li {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+}
+
+#banner_navbar a:link, #banner_navbar a:visited {
+  display: block;
+  padding: 1em;
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  color: #666;
+}
+
+#banner_navbar a:hover {
+  background-color: #666;
+  color: #222;
+}
+
 .banner_text {
   height: 3em;
   display: table-cell;
