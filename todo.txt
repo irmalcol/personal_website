@@ -5,4 +5,4 @@ Specify wrapping behaviour for navbar
 
 Make width of name in banner relative
 
-Fix spacing issues after banner and between sections
+Fix text positioning in text_container elements (centering and overflow)
