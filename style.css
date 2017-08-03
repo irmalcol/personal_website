@@ -30,12 +30,20 @@ a:visited {
   /*font-family: "Georgia Serif", serif;*/
   font-family: "Trebuchet MS", "Arial", sans-serif;
   font-size: 18px;
-  color: #777;
+  color: #032131;
+  background-color: #063852;
   z-index: 100;
+  box-shadow: 0px 3px 5px #111;
+  /*border: 1px solid rgb(123, 123, 123);*/
+  /*#063852 #34675C # #*/
 }
 
 #banner_title {
   width: 400px;
+  /*color: #032131;*/
+  /*color: #042739;*/
+  /*color: #000;*/
+  text-shadow: 0px 0px 3px #DDD;
 }
 
 #banner_navbar ul {
@@ -54,14 +62,20 @@ a:visited {
 #banner_navbar a:link, #banner_navbar a:visited {
   display: block;
   padding: 1em;
-  font-family: "Georgia", serif;
+  /*font-family: "Georgia", serif;*/
   font-size: 18px;
   color: #666;
+  /*color: #032131;*/
+  color: #FFF;
+  color: #DDD;
 }
 
 #banner_navbar a:hover {
   background-color: #666;
-  color: #222;
+  background-color: #063852;
+  background-color: #1E4B63;
+  /*color: #222;*/
+  box-shadow: 0px 0px 3px #DDD;
 }
 
 /*Need spacer to position elements below fixed banner*/
@@ -78,8 +92,20 @@ h2 {
   display: block;
   padding: 1em;
   clear: left;
-  color: #666;
+  text-align: center;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  /*color: #666;*/
+  color: #FFF;
+  color: #DDD;
+  color: #063852;
+  color: #34675C;
+  color: #0080D1;
+  color: #507385;
+  color: #829BA8;
   /*padding-top: 4em;*/
+  background-color: #34675C;
+  background-color: #13331D;
+  background-color: #000;
 }
 
 .anchor {
