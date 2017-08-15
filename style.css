@@ -124,6 +124,7 @@ h2 {
 .text_container {
   position: absolute;
   height: 50%;
+  height: auto;
   text-align: center;
   width: 35%;
   background-color: rgb(200, 200, 200);
@@ -132,15 +133,18 @@ h2 {
   /*z-index: 2;*/
 }
 
-.text_container:before {
+/*.text_container:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-}
+}*/
 
 .text_container > p {
   display: inline-block;
+  margin: 1em;
+  color: #DDD;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
 }
 
 .section_image {
