@@ -123,21 +123,24 @@ h2 {
 
 .text_container {
   position: absolute;
-  height: 50%;
+  /*height: 50%;*/
   text-align: center;
   width: 35%;
   background-color: rgb(200, 200, 200);
   background-color: rgba(0,0,0,0.4);
   margin: 5%;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  padding: 1em;
+  color: #DDD;
   /*z-index: 2;*/
 }
 
-.text_container:before {
+/*.text_container:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-}
+}*/
 
 .text_container > p {
   display: inline-block;
