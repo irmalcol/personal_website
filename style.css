@@ -124,14 +124,14 @@ h2 {
 .text_container {
   position: absolute;
   /*height: 50%;*/
-  text-align: center;
+  text-align: left;
   width: 35%;
   background-color: rgb(200, 200, 200);
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
   margin: 5%;
   font-family: "Trebuchet MS", "Arial", sans-serif;
-  padding: 1em;
-  color: #DDD;
+  /*padding: 1em;*/
+  color: #CCC;
   /*z-index: 2;*/
 }
 
@@ -144,6 +144,7 @@ h2 {
 
 .text_container > p {
   display: inline-block;
+  margin: 1em;
 }
 
 .section_image {
