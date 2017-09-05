@@ -147,6 +147,31 @@ h2 {
   margin: 1em;
 }
 
+.contact_container {
+  position: absolute;
+  display: inline-block;
+  text-align: right;
+  right: 0;
+  margin: 5% 0% 0% 0%;
+/*  background-color: rgb(200, 200, 200);
+  background-color: rgba(0,0,0,0.5);*/
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  color: #CCC;
+}
+
+.contact_container > p {
+  display: inline-block;
+  clear: right;
+  float: right;
+  /*width: auto;*/
+  margin: 0 0 3% 0;
+  padding: 0.25em 2em 0.25em 0.5em;
+  text-align: right;
+  font-size: 36px;
+  background-color: rgb(200, 200, 200);
+  background-color: rgba(0,0,0,0.5);
+}
+
 .section_image {
   display: block;
   max-width: 100%;
