@@ -179,3 +179,25 @@ h2 {
   height: auto;
   z-index:1;
 }
+
+.image_credit_dark {
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  font-size: 18px;
+  color: rgb(25,25,25);
+  color: rgba(0,0,0,0.7);
+  display: inline;
+  position: absolute;
+  right: 0.5em;
+  bottom: 0.5em;
+}
+
+.image_credit_light {
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  font-size: 18px;
+  color: rgb(225,225,225);
+  color: rgba(255,255,255,0.6);
+  display: inline;
+  position: absolute;
+  right: 0.5em;
+  bottom: 0.5em;
+}
