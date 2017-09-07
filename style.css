@@ -148,6 +148,11 @@ h2 {
   margin: 1em;
 }
 
+#prof_content_container {
+  display: inline-block;
+  position: absolute;
+}
+
 .contact_container {
   position: absolute;
   display: inline-block;
@@ -173,12 +178,12 @@ h2 {
   background-color: rgba(0,0,0,0.5);
 }
 
-.section_image {
+/*.section_image {
   display: block;
   max-width: 100%;
   height: auto;
   z-index:1;
-}
+}*/
 
 .image_credit_dark {
   font-family: "Trebuchet MS", "Arial", sans-serif;
