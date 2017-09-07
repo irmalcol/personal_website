@@ -9,6 +9,7 @@
 body {
   min-width: 1000px;
   background: #222;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
 }
 
 /* Remove link underlining for all links */
@@ -149,6 +150,10 @@ h2 {
   /*z-index: 2;*/
 }
 
+#text_container_professional {
+  width: 90%;
+}
+
 /*.text_container:before {
   content: '';
   display: inline-block;
@@ -162,8 +167,21 @@ h2 {
 }
 
 #prof_content_container {
+  /*border: 1px solid rgb(123, 123, 123);*/
   display: block;
   position: relative;
+  margin: 0 5% 5% 5%;
+  background-color: #FFF;
+}
+
+.professional_category {
+  display: inline-block;
+  padding: 1em;
+  color: #063852;
+}
+
+.professional_description {
+  padding: 1em;
 }
 
 .contact_container {
@@ -189,6 +207,10 @@ h2 {
   font-size: 36px;
   background-color: rgb(200, 200, 200);
   background-color: rgba(0,0,0,0.5);
+}
+
+.contact_container > p > a[href^="mailto"] {
+  color: #CCC;
 }
 
 /*.section_image {
