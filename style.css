@@ -22,10 +22,9 @@ a:visited {
 
 .banner {
   position: fixed;
-  min-width: 1000px;
+  /*min-width: 1000px;*/
   height:80px;
   width: 100%;
-  overflow: auto;
   background: #222;
   /*background: rbga(0,0,0,0.3);*/
   padding: 5px 20px 5px 20px;
@@ -51,15 +50,18 @@ a:visited {
 #banner_navbar ul {
   list-style-type: none;
   width: 100%;
+  min-width: 600px;
   display: table;
   table-layout: fixed;
-  overflow-x: scroll;
+  /*overflow-x: auto;*/
+  /*border: 1px solid rgb(123, 123, 123);*/
 }
 
 #banner_navbar li {
   display: table-cell;
   width: auto;
   text-align: center;
+  /*border: 1px solid rgb(123, 123, 123);*/
 }
 
 #banner_navbar a:link, #banner_navbar a:visited {
