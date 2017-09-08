@@ -9,3 +9,5 @@ Content in Professional section
 
 Content in Personal section
 
+Animate scrolling from navbar links
+
