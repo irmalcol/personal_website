@@ -21,6 +21,11 @@ a:visited {
   text-decoration: none;
 }
 
+/*REMOVE THIS SELECTOR IF NOT USED IN index.html*/
+.clear {
+  clear: both;
+}
+
 .banner {
   position: fixed;
   /*min-width: 1000px;*/
@@ -130,7 +135,7 @@ h2 {
 }
 
 .content_container {
-  position: absolute;
+  position: relative;/*CHANGE THIS BACK TO ABSOLUTE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   width: 100%;
   /*z-index: 2;*/
 }
@@ -154,13 +159,6 @@ h2 {
   width: 90%;
 }
 
-/*.text_container:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}*/
-
 .text_container > p {
   display: inline-block;
   margin: 1em;
@@ -180,12 +178,13 @@ h2 {
   color: #063852;
 }
 
-.professional_description {
-  padding: 1em;
+.professional_description > p {
+  margin: 1em;
 }
 
-.professional_description > p {
-  margin-bottom: 1em;
+.bullet_list {
+  margin: 1em;
+  padding-left: 2em;
 }
 
 .contact_container {
