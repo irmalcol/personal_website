@@ -184,6 +184,10 @@ h2 {
   padding: 1em;
 }
 
+.professional_description > p {
+  margin-bottom: 1em;
+}
+
 .contact_container {
   position: absolute;
   display: inline-block;

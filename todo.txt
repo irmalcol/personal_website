@@ -7,5 +7,9 @@ Make width of name in banner relative
 
 Content in Professional section
 
+Figure out content scrolling or auto-height of sections for professional content which is long
+
 Content in Personal section
+
+Animate scrolling from navbar links
 
