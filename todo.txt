@@ -5,4 +5,9 @@ Specify wrapping behaviour for navbar
 
 Make width of name in banner relative
 
-Fix text positioning in text_container elements (centering and overflow)
+Content in Professional section
+
+Content in Personal section
+
+Animate scrolling from navbar links
+
