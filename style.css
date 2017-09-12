@@ -22,6 +22,11 @@ a:visited {
   text-decoration: none;
 }
 
+.active_banner_link {
+  border-bottom-style: solid;
+  border-bottom-width: 0.15em;
+}
+
 .banner {
   position: fixed;
   /*min-width: 1000px;*/
