@@ -8,7 +8,8 @@
 
 body {
   min-width: 1000px;
-  background: #222;
+  /*background: #222;*/
+  background: #E9F1EE; /*~CIL Swan White*/
   font-family: "Trebuchet MS", "Arial", sans-serif;
 }
 
@@ -26,14 +27,16 @@ a:visited {
   /*min-width: 1000px;*/
   height:80px;
   width: 100%;
-  background: #222;
+  /*background: #222;*/
   /*background: rbga(0,0,0,0.3);*/
   padding: 5px 20px 5px 20px;
   /*font-family: "Georgia Serif", serif;*/
   font-family: "Trebuchet MS", "Arial", sans-serif;
   font-size: 18px;
   color: #032131;
-  background-color: #063852;
+
+  /*background-color: #063852;*/
+  background-color: #E9F1EE; /*~CIL Swan White*/
   z-index: 100;
   box-shadow: 0px 3px 5px #111;
   /*border: 1px solid rgb(123, 123, 123);*/
@@ -42,10 +45,15 @@ a:visited {
 
 #banner_title {
   width: 400px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-variant: small-caps;
+  /*font-weight: normal;*/
+  color: #0C3D82;
   /*color: #032131;*/
   /*color: #042739;*/
   /*color: #000;*/
-  text-shadow: 0px 0px 3px #DDD;
+  /*color: #072146;*/
+  /*text-shadow: 0px 0px 3px #DDD;*/
 }
 
 #banner_navbar ul {
@@ -69,19 +77,24 @@ a:visited {
   display: block;
   padding: 1em;
   /*font-family: "Georgia", serif;*/
+  font-family: "Encode Sans Semi Condensed", "Trebuchet MS", sans-serif;
   font-size: 18px;
   color: #666;
   /*color: #032131;*/
-  color: #FFF;
-  color: #DDD;
+  /*color: #6D98A9;*/ /*~CIL Benton Harbor*/
+  /*color: #04315D;*/
+  color: #0C3D82;
+  /*color: #0D3359;*/
 }
 
 #banner_navbar a:hover {
-  background-color: #666;
-  background-color: #063852;
+  /*background-color: #666;*/
+  /*background-color: #063852;*/
   background-color: #1E4B63;
+  background-color: #0C3D82;
   /*color: #222;*/
-  box-shadow: 0px 0px 3px #DDD;
+  color: #E9F1EE;
+  /*box-shadow: 0px 0px 3px #DDD;*/
 }
 
 /*Need spacer to position elements below fixed banner*/
