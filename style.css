@@ -26,12 +26,12 @@ a:visited {
   text-decoration: none;
 }
 
-.active_banner_link {
+/*.active_banner_link {
   border-bottom-style: solid;
   border-bottom-width: 0.15em;
-}
+}*/
 
-.banner {
+#banner {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -71,32 +71,52 @@ a:visited {
   /*text-shadow: 0px 0px 3px #DDD;*/
 }
 
+#banner_menu {
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-wrap: flex;
+}
+
 .menu_item {
-  width: 20%;
-  padding: 1.5em;
-  font-family: "Trebuchet MS", "Arial", sans-serif;
-  font-size: 24px;
+  width: 33.333%;
+  /*padding: 1.5em;*/
+  /*font-family: "Trebuchet MS", "Arial", sans-serif;
+  font-size: 24px;*/
   text-align: center;
 }
 
 
-#banner_navbar ul {
+/*#banner_navbar ul {
   list-style-type: none;
   width: 100%;
   min-width: 600px;
   display: table;
-  table-layout: fixed;
-  /*overflow-x: auto;*/
-  /*border: 1px solid rgb(123, 123, 123);*/
-}
+  table-layout: fixed;*/
+/*}*/
 
-#banner_navbar li {
+/*#banner_navbar li {
   display: table-cell;
   width: auto;
   text-align: center;
-  /*border: 1px solid rgb(123, 123, 123);*/
+}*/
+
+#banner_menu a:link, #banner_menu a:visited {
+  /*display: block;*/
+  padding: 1em;
+  /*font-family: "Georgia", serif;*/
+  font-family: "Encode Sans Semi Condensed", "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  /*color: #666;*/
+  /*color: #032131;*/
+  /*color: #6D98A9;*/ /*~CIL Benton Harbor*/
+  /*color: #04315D;*/
+  color: #0C3D82;
+  /*color: #0D3359;*/
 }
 
+/*UNUSED AT THE MOMENT*/
 #banner_navbar a:link, #banner_navbar a:visited {
   display: block;
   padding: 1em;
@@ -111,7 +131,7 @@ a:visited {
   /*color: #0D3359;*/
 }
 
-#banner_navbar a:hover {
+#banner_menu a:hover {
   /*background-color: #666;*/
   /*background-color: #063852;*/
   background-color: #1E4B63;
