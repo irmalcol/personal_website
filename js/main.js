@@ -4,8 +4,8 @@ $(document).ready(function() {
   var pageAnchors = $("[class='anchor']");
   var numAnchors = pageAnchors.length;
   // console.log($(pageAnchors).length);
-  console.log(pageAnchors);
-  console.log(numAnchors);
+  // console.log(pageAnchors);
+  // console.log(numAnchors);
   var anchorPositions = new Array(numAnchors);
   for (var i = 0;i<numAnchors;i++)
   {
@@ -23,13 +23,13 @@ $(document).ready(function() {
   // anchorPositions[0] = $("[class='anchor']")[0].
   // var anchorPositions;
 
-  $("[class='anchor']").each(function(index) {
-    console.log(index + ": " + $(this).text());
-    var currentPosition = $(this).offset();
-    console.log(currentPosition);
-    // anchorPositions.push(currentPosition);
-    // anchorPositions.push($(this).position());
-  });
+  // $("[class='anchor']").each(function(index) {
+  //   console.log(index + ": " + $(this).text());
+  //   var currentPosition = $(this).offset();
+  //   console.log(currentPosition);
+  //   // anchorPositions.push(currentPosition);
+  //   // anchorPositions.push($(this).position());
+  // });
 
   $(document).on("scroll",onScroll); // Run onScroll function on scroll event
 });
@@ -38,10 +38,14 @@ $(document).ready(function() {
 function onScroll(event) {
   var scrollPosition = $(document).scrollTop(); // get vertical scroll position
   // alert("test");
+  for (var i = 0;i<numAnchors;i++)
+  {
+    console.log(index + ": " + $(this).text());
+  }
   $("#banner_navbar a").each(function(index) {
     console.log(index + ": " + $(this).text());
     var currentLink = $(this);
-    console.log($(currentLink).attr("href"));
+    // console.log($(currentLink).attr("href"));
     // console.log($(currentLink).attr("href").offset());
     var refElement = $(currentLink).attr("href");
     // $("a" refElement).show();
