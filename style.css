@@ -144,29 +144,54 @@ a:visited {
 }
 
 /*Need spacer to position elements below fixed banner*/
-#banner_spacer {
+/*#banner_spacer {
   height: 80px;
   width: 100%;
+}*/
+
+.flex_item {
+  padding: 1em;
 }
 
-h2 {
-  display: block;
+h2.flex_item {
+  /*display:inline;*/
+  /*display: block;*/
+  /*width:33.3333%;*/
+  width: 100%;
   padding: 1em;
   text-align: center;
-  font-family: "Trebuchet MS", "Arial", sans-serif;
-  /*color: #666;*/
-  /*color: #FFF;
-  color: #DDD;
-  color: #063852;
-  color: #34675C;
+  font-family: "Kreon", "Times", serif;
+  font-weight: 300;
+  /*color: #063852;*/
   color: #0080D1;
-  color: #507385;*/
-  color: #829BA8;
+  color: #0C3D82;
+
+  /*color: #507385;*/
+  /*color: #333;*/
   /*padding-top: 4em;*/
-  /*background-color: #34675C;
-  background-color: #13331D;*/
-  background-color: #000;
+  /*background-color: #34675C;*/
+  /*background-color: #13331D;*/
+  /*background-color: #000;*/
 }
+
+#profile_image {
+  /*width: 66.6667%;*/
+  /*height: 66.6667%;*/
+  max-width: 450px;
+  max-height: 450px;
+  width: 100%;
+  height: 100%;
+  border-radius:50%;
+  padding: 0 50px 0 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*img.flex_item {
+  max-width:66.6667%;
+  width: auto;
+  height: auto;
+}*/
 
 .anchor {
   display: block;
@@ -185,6 +210,8 @@ h2 {
 
 section {
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*Contains anchor, header, background image, and content*/
@@ -208,6 +235,7 @@ section {
 
 .text_container {
   display: inline-block;
+  width: 100%;
   position: relative;
   /*height: 50%;*/
   text-align: left;
