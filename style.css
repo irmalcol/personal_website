@@ -131,6 +131,8 @@ h2 {
   /*width: 100%;*/
   max-width: 550px;
   margin: 10px auto 10px auto;
+  padding: 0 50px 0 50px;
+
 }
 
 #profile_image {
@@ -141,7 +143,7 @@ h2 {
   border-radius:50%;
   /*margin-left: 50px;
   margin-right: 50px;*/
-  padding: 0 50px 0 50px;
+  /*padding: 0 50px 0 50px;*/
   /*object-fit: scale-down;*/
 }
 
