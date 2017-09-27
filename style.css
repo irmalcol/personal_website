@@ -46,7 +46,7 @@ a:visited {
   font-family: "Roboto Condensed", sans-serif;
   font-variant: small-caps;
   font-size: 18px;
-  padding: 0.5em 0 0 1em;
+  padding: 0.5em 0 0 0;
   text-align: center;
   color: #0C3D82;
   /*color: #032131;*/
@@ -247,6 +247,10 @@ p {
   margin-left: 45px;
 }
 
+#social_media_links {
+  margin-left: 50px;
+}
+
 /*.image_credit_dark {
   font-family: "Trebuchet MS", "Arial", sans-serif;
   font-size: 18px;
@@ -269,9 +273,10 @@ p {
   bottom: 0.5em;
 }*/
 
-@media screen and (min-width: 461px) {
+@media screen and (min-width: 541px) {
   #banner_title {
-    margin-left: initial;
+    margin-left: 0;
+    padding-left: 1em;
   }
 
   #banner_menu {
