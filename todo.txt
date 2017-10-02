@@ -1,9 +1,11 @@
 To-Do List for Website
 ======================
 
-Specify wrapping behaviour for navbar
+Fix distorted profile image in Firefox.
 
-Make width of name in banner relative
+Fix misplaced anchors in Firefox.
+
+Specify wrapping behaviour for navbar
 
 Content in Professional section
 
