@@ -188,9 +188,9 @@ h2 {
   color: #CCC;
 }
 
-#text_container_professional {
+/*#text_container_professional {
   width: 90%;
-}
+}*/
 
 .text_container > p {
   display: inline-block;
@@ -219,9 +219,9 @@ p {
   color: #063852;
 }*/
 
-.professional_description > p {
+/*.professional_description > p {
   margin: 1em;
-}
+}*/
 
 .bullet_list {
   margin: 1em;
